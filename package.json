@@ -3,7 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "testE2E":"npx playwright test --workers 2 --project=chromium-qa --grep @e2e"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
