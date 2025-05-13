@@ -1,0 +1,27 @@
+{
+    "TC001": {
+        "user.address": {
+            "country": "Philippines",
+            "address": "test address",
+            "city": "test city",
+            "state": "test state",
+            "zipCode": "1234",
+            "ssn": "12345678"
+        },
+        "user.account":{
+            "type":"SAVINGS",
+            "account.number":"13677"
+        },
+        "user.bills":{
+            "payee.name":"test",
+            "address":"test address",
+            "city":"test city",
+            "state":"test state",
+            "zipCode":"1234",
+            "phone":"023459384",
+            "account":"123456",
+            "verify.account ":"123456",
+            "amount":"10.00"
+        }
+    }
+}

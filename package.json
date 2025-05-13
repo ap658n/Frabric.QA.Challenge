@@ -1,0 +1,27 @@
+{
+  "name": "fabric.qa.test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@playwright/test": "^1.52.0",
+    "@types/node": "^22.15.17",
+    "cross-env": "^7.0.3",
+    "playwright-json-summary-reporter": "^1.0.1",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "check-tests": "^0.9.6",
+    "codeceptjs": "^3.6.10",
+    "grep": "^0.1.0",
+    "install": "^0.13.0",
+    "moment": "^2.30.1",
+    "phone-number-generator-js": "^1.2.12",
+    "unique-names-generator": "^4.7.1"
+  }
+}
