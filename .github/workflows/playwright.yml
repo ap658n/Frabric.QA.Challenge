@@ -8,9 +8,6 @@ on:
       test_tag:
         type: string
         required: true
-      test_env:
-        type: string
-        required: true
       project:
         type: string
         required: true
@@ -65,8 +62,8 @@ jobs:
             # Send Failed Summary
 
     - uses: actions/upload-artifact@v4
-      if: ${{ !cancelled() }}
+      if: failure()
       with:
         name: playwright-report
         path: playwright-report/
-        retention-days: 30
+        retention-days: 2
